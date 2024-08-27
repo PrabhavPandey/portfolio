@@ -2,7 +2,6 @@ import "./globals.css";
 
 import { Inter as FontSans } from "next/font/google";
 import localFont from "next/font/local";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
@@ -79,10 +78,6 @@ export const viewport = {
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
-    const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID;
-    if (!GA_ID) {
-        throw new Error("Missing Google Analytics ID");
-    }
 
     return (
         <html lang="en" suppressHydrationWarning>
@@ -105,7 +100,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     <ModalProvider />
                 </ThemeProvider>
             </body>
-            <GoogleAnalytics gaId={GA_ID} />
         </html>
     );
 }

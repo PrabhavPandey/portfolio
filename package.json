@@ -36,6 +36,7 @@
     "nodemailer": "^6.9.4",
     "postcss": "8.4.27",
     "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.45.4",
     "react-icons": "^4.10.1",
@@ -44,6 +45,7 @@
     "tailwindcss-animate": "^1.0.6",
     "types": "^0.1.1",
     "typescript": "5.1.6",
+    "use-sound": "^4.0.3",
     "zod": "^3.21.4",
     "zustand": "^4.4.1"
   },

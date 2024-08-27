@@ -41,15 +41,11 @@ export const metadata = {
     ],
     authors: [
         {
-            name: "namanbarkiya",
+            name: "prabhav",
             url: "https://namanbarkiya.com",
         },
     ],
-    creator: "namanbarkiya",
-    themeColor: [
-        { media: "(prefers-color-scheme: light)", color: "white" },
-        { media: "(prefers-color-scheme: dark)", color: "black" },
-    ],
+    creator: "prabhav",
     openGraph: {
         type: "website",
         locale: "en_US",
@@ -66,12 +62,20 @@ export const metadata = {
         creator: "@namanbarkiya",
     },
     icons: {
-        icon: "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
+        icon: "/favicon.ico",
         shortcut:
-            "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
-        apple: "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
+            "/icon.png",
+        apple: "/icon.png",
     },
     manifest: `${siteConfig.url}/site.webmanifest`,
+};
+
+
+export const viewport = {
+    themeColor: [
+        { media: "(prefers-color-scheme: light)", color: "white" },
+        { media: "(prefers-color-scheme: dark)", color: "black" },
+    ],
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
@@ -99,7 +103,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     <Analytics />
                     <Toaster />
                     <ModalProvider />
-                    {/* <TailwindIndicator /> */}
                 </ThemeProvider>
             </body>
             <GoogleAnalytics gaId={GA_ID} />

@@ -1,6 +1,10 @@
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
 import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
 import { AiFillStar } from "react-icons/ai";
+import { FaPython } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
+import { FaCalendarAlt } from "react-icons/fa";
+
 import {
     HiOutlineExternalLink,
     HiOutlineLink,
@@ -34,8 +38,10 @@ import {
     BookMarked,
     Building,
     Phone,
+    GitBranch,
 } from "lucide-react";
 import {
+    SiZapier,
     SiAmazonaws,
     SiAngular,
     SiBootstrap,
@@ -59,10 +65,26 @@ import {
     SiGmail,
     SiLinkedin,
     SiTwitter,
+    SiWebflow,
+    SiRetool,
+    SiGoogledocs,
+    SiSupabase,
+    SiVercel,
+    SiAppsmith
 } from "react-icons/si";
 import { IoIosGitBranch } from "react-icons/io";
 
 export const Icons = {
+    appsmith: SiAppsmith,
+    vercel: SiVercel,
+    zapier: SiZapier,
+    git: FaGitAlt,
+    python: FaPython,
+    time: FaCalendarAlt,
+    resume: SiGoogledocs,
+    supabase: SiSupabase,
+    retool: SiRetool,
+    webflow: SiWebflow,
     contact: Phone,
     gitRepoIcon: BookMarked,
     gitOrgBuilding: Building,

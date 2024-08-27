@@ -7,7 +7,7 @@ import { Icons } from "@/components/icons";
 import { buttonVariants } from "@/components/ui/button";
 import { cn, formatDateFromObj } from "@/lib/utils";
 import { Experiences } from "@/config/experience";
-import namanImg from "@/public/naman-img.jpg";
+import prabhavImg from "@/public/prabhav_img.png";
 import ChipContainer from "@/components/chip-container";
 import ExperienceDescription from "@/components/exp-desc";
 import CustomTooltip from "@/components/custom-tooltip";
@@ -36,7 +36,7 @@ export default function Experience({ params }: ExperiencePageProps) {
                 )}
             >
                 <Icons.chevronLeft className="mr-2 h-4 w-4" />
-                All Experience
+                All Experiences
             </Link>
             <div>
                 <time
@@ -65,27 +65,6 @@ export default function Experience({ params }: ExperiencePageProps) {
                     </div>
                 </h1>
                 <ChipContainer textArr={exp.category} />
-                <div className="mt-4 flex space-x-4">
-                    <Link
-                        href={`https://github.com/${githubUsername}`}
-                        className="flex items-center space-x-2 text-sm"
-                    >
-                        <Image
-                            src={namanImg}
-                            alt={"naman"}
-                            width={42}
-                            height={42}
-                            className="rounded-full bg-white"
-                        />
-
-                        <div className="flex-1 text-left leading-tight">
-                            <p className="font-medium">{"Naman Barkiya"}</p>
-                            <p className="text-[12px] text-muted-foreground">
-                                @{githubUsername}
-                            </p>
-                        </div>
-                    </Link>
-                </div>
             </div>
 
             <Image
@@ -116,14 +95,9 @@ export default function Experience({ params }: ExperiencePageProps) {
             </div>
 
             <div className="mb-7 ">
-                <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
-                    Page Info
-                </h2>
                 {exp.pagesInfoArr.map((page, ind) => (
                     <div key={ind}>
-                        <h3 className="flex items-center font-heading text-xl leading-tight lg:text-xl mt-3">
-                            <Icons.star className="h-5 w-5 mr-2" /> {page.title}
-                        </h3>
+
                         <div>
                             <p>{page.description}</p>
                             {page.imgArr.map((img, ind) => (
@@ -142,6 +116,7 @@ export default function Experience({ params }: ExperiencePageProps) {
                 ))}
             </div>
 
+
             <hr className="mt-12" />
             <div className="flex justify-center py-6 lg:py-10">
                 <Link
@@ -149,7 +124,7 @@ export default function Experience({ params }: ExperiencePageProps) {
                     className={cn(buttonVariants({ variant: "ghost" }))}
                 >
                     <Icons.chevronLeft className="mr-2 h-4 w-4" />
-                    All Experience
+                    All Experiences
                 </Link>
             </div>
         </article>

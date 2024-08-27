@@ -15,14 +15,13 @@ export default function SkillsCard({ skills }: SkillsCardProps) {
                     key={id}
                     className="relative overflow-hidden rounded-lg border bg-background p-2"
                 >
-                    <div className="flex h-[230px] flex-col justify-between rounded-md p-6 sm:h-[230px]">
+                    <div className="flex h-[200px] flex-col justify-between rounded-md p-6 sm:h-[200px]">
                         <skill.icon size={50} />
                         <div className="space-y-2">
                             <h3 className="font-bold">{skill.name}</h3>
                             <p className="text-sm text-muted-foreground">
                                 {skill.description}
                             </p>
-                            <Rating stars={skill.rating} />
                         </div>
                     </div>
                 </div>

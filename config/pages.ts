@@ -9,24 +9,23 @@ type PagesConfig = {
 };
 
 export const pagesConfig: PagesConfig = {
-    skills: {
-        title: "Skills",
-        description: "Key skills that define my professional identity.",
-        // featuredDescription: "Skill Showcase",
-    },
     experience: {
         title: "Experience",
-        description: "Highlighting career journey and impactful projects.",
+        description: "Internships, Projects & Freelance work.",
         // featuredDescription: "Work Timeline",
     },
-    contact: {
-        title: "Contact",
-        description: "Let's connect and explore collaborations.",
-        // featuredDescription: "Get in Touch",
+    skills: {
+        title: "Skills",
+        description: "Here's what YouTube has taught me in the last 4 years.",
+        // featuredDescription: "Skill Showcase",
     },
     contributions: {
-        title: "Contributions",
-        description: "Open-source contributions and community involvement.",
+        title: "Some more",
+        description: "Positions of leadership & extra curriculars (sorted by date).",
         // featuredDescription: "Contributions Showcase",
+    },
+    contact: {
+        title: "Get in touch.",
+        description: "DM me on LinkedIn or shoot me an email (pp606@snu.edu.in). I reply fast.",
     },
 };

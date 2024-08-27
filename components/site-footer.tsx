@@ -31,7 +31,9 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
                         </Link>
                     </CustomTooltip>
                 ))}
+                
             </div>
+            <p className="container flex items-center justify-center md:h-16">Built with ❤️ from India using Next.js 14</p>
         </footer>
     );
 }

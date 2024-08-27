@@ -31,8 +31,10 @@ const renderContent = (tabVal: string) => {
     let expArr = Experiences;
     if (tabVal === "personal") {
         expArr = expArr.filter((val) => val.type === "Personal Project");
-    } else if (tabVal === "professional") {
-        expArr = expArr.filter((val) => val.type === "Professional");
+    } else if (tabVal === "Webflow") {
+        expArr = expArr.filter((val) => val.type === "Webflow");
+    } else if (tabVal === "Internships") {
+        expArr = expArr.filter((val) => val.type === "Internships");
     }
 
     return (
@@ -54,20 +56,25 @@ export default function ExperiencePage() {
                 description={pagesConfig.experience.description}
             />
             <Tabs defaultValue="all" className="w-full">
-                <TabsList className="conatiner grid max-w-[30rem] grid-cols-3">
+                <TabsList className="conatiner grid max-w-[30rem] grid-cols-4">
                     <TabsTrigger value="all">All</TabsTrigger>
+                    <TabsTrigger value="Internships">Internships</TabsTrigger>
+                    <TabsTrigger value="Webflow">Webflow</TabsTrigger>
                     <TabsTrigger value="personal">Personal</TabsTrigger>
-                    <TabsTrigger value="professional">Professional</TabsTrigger>
                 </TabsList>
                 <TabsContent value="all" className="w-full">
                     {renderContent("all")}
                 </TabsContent>
-                <TabsContent value="professional">
-                    {renderContent("professional")}
+                <TabsContent value="Internships">
+                    {renderContent("Internships")}
+                </TabsContent>
+                <TabsContent value="Webflow">
+                    {renderContent("Webflow")}
                 </TabsContent>
                 <TabsContent value="personal">
                     {renderContent("personal")}
                 </TabsContent>
+                
             </Tabs>
         </>
     );

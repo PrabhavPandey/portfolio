@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import PageHeader from "@/components/page-header";
 import SkillsCard from "@/components/skills-card";
 import { pagesConfig } from "@/config/pages";
-import { skills } from "@/config/skills";
+import { skillsUnsorted } from "@/config/skills";
 
 export const metadata: Metadata = {
     title: "Skills",
@@ -17,7 +17,7 @@ export default function SkillsPage() {
                 title={pagesConfig.skills.title}
                 description={pagesConfig.skills.description}
             />
-            <SkillsCard skills={skills} />
+            <SkillsCard skills={skillsUnsorted} />
         </>
     );
 }

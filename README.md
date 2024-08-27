@@ -1,4 +1,4 @@
-# Next.js 14 Portfolio Website
+# Portfolio
 
 This portfolio website is designed to showcase your professional and personal work while adhering to the latest coding patterns and featuring a stunning, minimalistic design.
 

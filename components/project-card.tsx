@@ -38,13 +38,15 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                     </Button>
                 </Link>
             </div>
-            <div className="absolute bottom-4 right-4 dark:border-gray-700 p-3 rounded-full  bg-white border dark:bg-gray-950 border-gray-200 ">
+            <div className="absolute bottom-4 right-4 dark:border-gray-700 p-3 rounded-full bg-white border dark:bg-gray-950 border-gray-200 ">
                 {project.type === "Personal Project" ? (
                     <Icons.userFill className="h-4 w-4" />
+                ) : project.type === "Webflow" ? (
+                    <Icons.webflow className="h-4 w-4" />
                 ) : (
                     <Icons.work className="h-4 w-4" />
                 )}
-            </div>
+                </div>
         </div>
     );
 }

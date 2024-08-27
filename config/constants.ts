@@ -1,25 +1,25 @@
 export type ValidSkills =
     | "Next.js"
+    | "Remix.js"
+    | "Sass"
+    | "Prisma"
+    | "Webflow"
     | "React"
-    | "GraphQL"
-    | "Nest.js"
-    | "express.js"
-    | "Node.js"
-    | "MongoDB"
-    | "Typescript"
     | "Javascript"
     | "HTML 5"
     | "CSS 3"
-    | "React Native"
-    | "Angular"
-    | "Redux"
-    | "Socket.io"
     | "Material UI"
-    | "Tailwind CSS"
     | "AWS"
-    | "Bootstrap"
-    | "Google Auth"
-    | "MySQL";
+    | "Python"
+    | "Langchain"
+    | "Angular"
+    | "SQL"
+    | "Axios"
+    | "Supabase"
+    | "Appsmith"
+    | "Wix"
+    | "Firebase"
+    | "Retool";
 
 export type ValidCategory =
     | "Full Stack"
@@ -27,9 +27,12 @@ export type ValidCategory =
     | "Backend"
     | "UI/UX"
     | "Web Dev"
-    | "Mobile Dev"
-    | "3D Modeling";
+    | "Internship"
+    | "Freelance"
+    | "Project"
+    | "Summer - 2023"
+    | "Summer - 2024";
 
-export type ValidExpType = "Personal Project" | "Professional";
+export type ValidExpType = "Personal Project" | "Webflow" | "Internships";
 
 export type ValidPages = "skills" | "experience" | "contact" | "contributions";

@@ -14,7 +14,7 @@ export const contributionsUnsorted: contributionsInterface[] = [
             "Led a team of 100 members to conduct the most loved  events & competitions on campus.",
         repoOwner: "E-Cell, Shiv Nadar University",
         image: "/extra/ecell.jpg",
-        link: "",
+        link: "https://youtu.be/jpU9JTjVlSI?si=hVegzF09eBiIXHsy&t=20",
         year: "2021-24"
     },
     {
@@ -68,10 +68,10 @@ export const contributionsUnsorted: contributionsInterface[] = [
     {
         repo: "Guitar",
         contibutionDescription:
-            "My coping mechanism.",
+            "I love playing the guitar! (when no one is around).",
         repoOwner: "Home - Bangalore",
         image: "/extra/guitar.png",
-        link: "",
+        link: "https://www.youtube.com/watch?v=xvFZjo5PgG0&pp=ygUJcmljayByb2xs",
         year: "2020-Present"
 
     },
@@ -91,7 +91,7 @@ export const contributionsUnsorted: contributionsInterface[] = [
             "I'm the one with the red flag. Thankfully, that was the only time.",
         repoOwner: "Kumarans (CBSE)",
         image: "/extra/school.jpg",
-        link: "",
+        link: "https://cbse-mls.kumarans.org/",
         year: "2015-2019"
 
     },

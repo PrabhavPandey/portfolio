@@ -20,8 +20,8 @@ export const pagesConfig: PagesConfig = {
         // featuredDescription: "Skill Showcase",
     },
     contributions: {
-        title: "Some more",
-        description: "Positions of leadership & extra curriculars (sorted by date).",
+        title: "Who am I?",
+        description: "Positions of leadership & extra curriculars that define me (sorted by date).",
         // featuredDescription: "Contributions Showcase",
     },
     contact: {

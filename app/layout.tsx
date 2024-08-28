@@ -41,7 +41,7 @@ export const metadata = {
     authors: [
         {
             name: "prabhav",
-            url: "https://namanbarkiya.com",
+            url: "https://prabhav.vercel.app/",
         },
     ],
     creator: "prabhav",
@@ -58,7 +58,7 @@ export const metadata = {
         title: siteConfig.name,
         description: siteConfig.description,
         images: [`${siteConfig.url}/og.jpg`],
-        creator: "@namanbarkiya",
+        creator: "@prabhavpandey",
     },
     icons: {
         icon: "/favicon.ico",

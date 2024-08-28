@@ -9,7 +9,7 @@ import { buttonVariants } from "@/components/ui/button";
 export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
     return (
         <footer className={cn(className)}>
-            <div className="container flex items-center justify-center gap-8 mt-10 py-10 md:h-24">
+            <div className="container flex items-center justify-center gap-8 mt-1 pt-12 md:h-24">
                 {SocialLinks.map((item, ind) => (
                     <CustomTooltip
                         icon={item.icon}
@@ -33,7 +33,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
                 ))}
                 
             </div>
-            <p className="container flex items-center justify-center md:h-16">Built with ❤️ from India using Next.js 14</p>
+            <p className="container flex items-center justify-center md:h-16 py-6 text-gray-300">Built with ❤️ using Next.js 14</p>
         </footer>
     );
 }

@@ -1,11 +1,10 @@
 export const siteConfig: any = {
     name: "Prabhav Pandey",
     description:
-        "An open source application built using the new router, server components and everything new in Next.js 13.",
-    url: "https://namanbarkiya.com",
-    ogImage: "https://namanbarkiya.com/og.jpg",
+        "My personal portfolio - Built with Next.js 13",
+    url: "https://prabhav.vercel.app/",
+    ogImage: "",
     links: {
-        twitter: "https://twitter.com/naman",
         github: "https://github.com/PrabhavPandey",
     },
 };

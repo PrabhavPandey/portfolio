@@ -13,9 +13,9 @@ import { featuredExperiences } from "@/config/experience";
 import ProjectCard from "@/components/project-card";
 import { featuredContributions } from "@/config/contributions";
 import ContributionCard from "@/components/contribution-card";
+import UserLocation from "@/components/user-location";
 
-
-export default async function IndexPage() {
+export default function IndexPage() {
     return (
         <>
             <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
@@ -26,7 +26,7 @@ export default async function IndexPage() {
                         width={100}
                         sizes="100vw"
                         className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary dark:border-white dark:bg-white"
-                        alt="naman-barkiya-img"
+                        alt="prabhav-img"
                     />
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
                         Prabhav Pandey
@@ -36,11 +36,10 @@ export default async function IndexPage() {
                     </h3>
                     <div className="flex flex-col  mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
                         <Link
-                            href={"https://www.linkedin.com/in/prabhav-pandey/"}
-                            target="_blank"
+                            href={"/#contact"}
                             className={cn(buttonVariants({ size: "lg" }))}
                         >
-                            <Icons.linkedin className="w-4 h-4 mr-2" /> LinkedIn
+                            <Icons.contact className="w-4 h-4 mr-2" /> Get in Touch
                         </Link>
                         <Link
                             href={"https://drive.google.com/file/d/1VGZa5CjAG7WY_RkhBNaKqLPa32Ofa4AO/view?usp=sharing"}
@@ -83,6 +82,7 @@ export default async function IndexPage() {
                     </Button>
                 </Link>
             </section>
+
             <section
                 id="skills"
                 className="container space-y-6 bg-slate-50 dark:bg-transparent py-10"
@@ -102,6 +102,7 @@ export default async function IndexPage() {
                     </Button>
                 </Link>
             </section>
+
             <section
                 id="contributions"
                 className="container space-y-6 bg-slate-50 dark:bg-transparent py-10 my-14"
@@ -123,9 +124,10 @@ export default async function IndexPage() {
                     </Button>
                 </Link>
             </section>
+
             <section
                 id="contact"
-                className="container space-y-4 bg-slate-50 dark:bg-transparent py-6 my-8"
+                className="container space-y-4 bg-slate-50 dark:bg-transparent"
             >
                 <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-3 text-center">
                     <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
@@ -140,13 +142,11 @@ export default async function IndexPage() {
                         width={100}
                         sizes="100vw"
                         className="mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary dark:border-white dark:bg-white"
-                        alt="naman-barkiya-img"
+                        alt="hug-gif"
                     />
+                    <UserLocation />
                 </div>
-
             </section>
-
-
         </>
     );
 }

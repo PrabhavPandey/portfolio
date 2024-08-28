@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const routesConfig: any = {
     mainNav: [
         {
@@ -9,8 +11,13 @@ export const routesConfig: any = {
             href: "/skills",
         },
         {
-            title: "Positions (to really know more about me)",
+            title: "Who am I?",
             href: "/contributions",
         },
+        {
+            title: "Contact",
+            href: "/#contact"
+        }
+
     ],
 };

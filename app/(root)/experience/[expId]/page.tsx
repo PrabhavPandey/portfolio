@@ -18,7 +18,7 @@ interface ExperiencePageProps {
     };
 }
 
-const githubUsername = "namanbarkiya";
+const githubUsername = "prabhavpandey";
 
 export default function Experience({ params }: ExperiencePageProps) {
     let exp = Experiences.find((val) => val.id === params.expId);

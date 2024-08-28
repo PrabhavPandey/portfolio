@@ -12,13 +12,13 @@ export const SocialLinks: SocialInterface[] = [
         name: "Github",
         username: "@prabhavpandey",
         icon: Icons.gitHub,
-        link: "https://github.com/namanbarkiya",
+        link: "https://github.com/PrabhavPandey",
     },
     {
         name: "LinkedIn",
         username: "Prabhav Pandey",
         icon: Icons.linkedin,
-        link: "https://www.linkedin.com/in/naman-barkiya-015323200/",
+        link: "https://www.linkedin.com/in/prabhav-pandey/",
     },
     {
         name: "Gmail",

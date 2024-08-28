@@ -86,6 +86,8 @@ export const Experiences: ExperienceInterface[] = [
                 title: "",
                 description: "",
                 imgArr: [
+                    "/experience/zorp/team.jpg",
+                    "/experience/zorp/pic.jpg"
                 ],
             },
         ],
@@ -124,7 +126,7 @@ export const Experiences: ExperienceInterface[] = [
             },
             {
                 title: "",
-                description: "Meeting the admin with my Co-founder",
+                description: "Meeting the admin with my Co-founder & roommate, Keshav ",
                 imgArr: [
                     "/experience/snuxplore/two.jpg",
                     "/experience/snuxplore/one.jpg",
@@ -332,8 +334,8 @@ export const Experiences: ExperienceInterface[] = [
         websiteLink: "prabhavp380.wixsite.com/covicaller", // You can fill this in later
         githubLink: "", // You can fill this in later
         techStack: ["Javascript", "Wix"],
-        startDate: new Date("2022-05-01"),
-        endDate: new Date("2022-05-01"), // You can fill this in later
+        startDate: new Date("2019-06-11"),
+        endDate: new Date("2019-06-11"), // You can fill this in later
         companyLogoImg: "/experience/covicaller/Gallery - 1.png",
         pagesInfoArr: [
             {

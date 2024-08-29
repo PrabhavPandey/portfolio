@@ -5,7 +5,6 @@ import Link from "next/link";
 import { usePathname, useSelectedLayoutSegment } from "next/navigation";
 import { Ubuntu_Mono } from "next/font/google"
 import Confetti from 'react-confetti'
-import useSound from 'use-sound'
 
 import { cn } from "@/lib/utils";
 import { Icons } from "@/components/icons";
@@ -30,7 +29,6 @@ export function MainNav({ items, children }: MainNavProps) {
     const [showMobileMenu, setShowMobileMenu] = React.useState<boolean>(false);
     const pathname = usePathname();
     const [isConfettiActive, setIsConfettiActive] = React.useState(false);
-    const [play] = useSound('/path-to-your-sound-file.mp3'); // Add a sound effect
 
     React.useEffect(() => {
         setShowMobileMenu(false);
@@ -38,7 +36,6 @@ export function MainNav({ items, children }: MainNavProps) {
 
     const throwConfetti = () => {
         setIsConfettiActive(true);
-        play(); // Play sound effect
         setTimeout(() => setIsConfettiActive(false), 5000); // Stop after 5 seconds
     };
 

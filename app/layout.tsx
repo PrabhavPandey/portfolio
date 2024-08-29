@@ -9,6 +9,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModalProvider } from "@/providers/modal-provider";
 import { Analytics } from "@/components/analytics";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const fontSans = FontSans({
     subsets: ["latin"],
@@ -96,6 +97,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 >
                     {children}
                     <Analytics />
+                    <SpeedInsights/>
                     <Toaster />
                     <ModalProvider />
                 </ThemeProvider>

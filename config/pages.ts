@@ -26,6 +26,6 @@ export const pagesConfig: PagesConfig = {
     },
     contact: {
         title: "Get in touch.",
-        description: "DM me on LinkedIn or shoot me an email (pp606@snu.edu.in). I reply fast.",
+        description: "Book a slot on Calendly or DM me on LinkedIn. I reply fast.",
     },
 };

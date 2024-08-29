@@ -29,7 +29,7 @@ export const contributionsUnsorted: contributionsInterface[] = [
     {
         repo: "🎤Undersecretary General",
         contibutionDescription:
-            "Organised the largest school level Model UN conference in Bangalore.",
+            "Organised the largest school level Model UN conference in Bangalore. Led the tech, design and operations teams.",
         repoOwner: "Kumarans Model UN - 2023",
         image: "/extra/kmun.webp",
         link: "https://www.kmun.in/",

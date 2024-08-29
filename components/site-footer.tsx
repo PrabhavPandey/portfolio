@@ -33,7 +33,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
                 ))}
                 
             </div>
-            <p className="container flex items-center justify-center md:h-16 py-6 text-gray-300">Built with ❤️ using Next.js 14</p>
+            <p className="container flex items-center justify-center md:h-16 pb-20 pt-6 text-gray-300">Built with ❤️ using Next.js 14</p>
         </footer>
     );
 }

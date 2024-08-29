@@ -331,7 +331,7 @@ export const Experiences: ExperienceInterface[] = [
         category: ["Project", "Web Dev"],
         shortDescription:
             "A crowdsourced contact directory to tackle Covid-19 scams in India. My first taste of entrepreneurship.",
-        websiteLink: "prabhavp380.wixsite.com/covicaller", // You can fill this in later
+        websiteLink: "https://prabhavp380.wixsite.com/covicaller", // You can fill this in later
         githubLink: "", // You can fill this in later
         techStack: ["Javascript", "Wix"],
         startDate: new Date("2019-06-11"),

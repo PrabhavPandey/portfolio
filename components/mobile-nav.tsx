@@ -2,7 +2,6 @@ import * as React from "react";
 import Link from "next/link";
 import { Ubuntu_Mono } from "next/font/google";
 import Confetti from 'react-confetti';
-import useSound from 'use-sound';
 
 import { cn } from "@/lib/utils";
 import { useLockBody } from "@/hooks/use-lock-body";
@@ -24,21 +23,19 @@ const ubuntu = Ubuntu_Mono({
 export function MobileNav({ items, children }: MobileNavProps) {
     useLockBody();
     const [isConfettiActive, setIsConfettiActive] = React.useState(false);
-    const [play] = useSound('/path-to-your-sound-file.mp3'); // Add a sound effect
 
     const throwConfetti = () => {
         setIsConfettiActive(true);
-        play(); // Play sound effect
         setTimeout(() => setIsConfettiActive(false), 5000); // Stop after 5 seconds
     };
 
     return (
         <div
             className={cn(
-                "fixed inset-0 top-12 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-md animate-in slide-in-from-top-10 md:hidden"
+                "fixed inset-0 top-8 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-md animate-in slide-in-from-top-10 md:hidden"
             )}
         >
-            <div className="relative z-20 grid gap-6 rounded-md bg-popover p-4 text-popover-foreground shadow-md">
+            <div className="relative z-20 grid gap-2 rounded-md bg-popover p-4 text-popover-foreground shadow-md">
                 <Link href="/" className="flex items-center space-x-2">
                     <span className={cn(ubuntu.className, "text-2xl")}>
                         prabhav.

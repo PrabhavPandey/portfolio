@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-
 import heroImg from "@/public/prabhav_img.png";
 import hug from "@/public/extra/hug.webp"
 import SkillsCard from "@/components/skills-card";
@@ -14,6 +13,7 @@ import ProjectCard from "@/components/project-card";
 import { featuredContributions } from "@/config/contributions";
 import ContributionCard from "@/components/contribution-card";
 import UserLocation from "@/components/user-location";
+import CalendlyEmbed from "@/components/calendly-embed";
 
 export default function IndexPage() {
     return (
@@ -32,7 +32,7 @@ export default function IndexPage() {
                         Prabhav Pandey
                     </h1>
                     <h3 className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl">
-                        Builder🛠️ | Student🎓
+                        Builder🛠️ | Student🎓 | Webflow Dev👨🏻‍💻
                     </h3>
                     <div className="flex flex-col  mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
                         <Link
@@ -133,9 +133,16 @@ export default function IndexPage() {
                     <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
                         {pagesConfig.contact.title}
                     </h2>
-                    <p className="max-w-[85%] leading-normal text-gray-700 dark:text-gray-200 sm:text-xl sm:leading-8">
+                    <p className="w-[74vw] leading-normal text-gray-700 dark:text-gray-200 sm:text-xl sm:leading-8">
                         {pagesConfig.contact.description}
                     </p>
+                    <CalendlyEmbed
+                        url="https://calendly.com/prabhavpandey/30minute?hide_gdpr_banner=1"
+                        text="Calendly - Let's talk!"
+                        color=" #0069ff"
+                        textColor="#ffffff"
+                        branding={false}
+                        />
                     <Image
                         src={hug}
                         height={100}

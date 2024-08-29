@@ -1,4 +1,6 @@
-import { Metadata } from "next";
+"use client";
+
+import { useState } from "react";
 
 import ProjectCard from "@/components/project-card";
 import PageHeader from "@/components/page-header";
@@ -6,11 +8,7 @@ import { cn } from "@/lib/utils";
 import { Experiences } from "@/config/experience";
 import { pagesConfig } from "@/config/pages";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-
-export const metadata: Metadata = {
-    title: "Experience",
-    description: "Examples of cards built using the components.",
-};
+import { metadata } from "./metadata"; // Import metadata
 
 function ProjectContainer({
     className,
@@ -49,18 +47,32 @@ const renderContent = (tabVal: string) => {
 };
 
 export default function ExperiencePage() {
+    const [selectedTab, setSelectedTab] = useState("all");
+
     return (
         <>
             <PageHeader
                 title={pagesConfig.experience.title}
                 description={pagesConfig.experience.description}
             />
-            <Tabs defaultValue="all" className="w-full">
-                <TabsList className="conatiner grid max-w-[30rem] grid-cols-4">
-                    <TabsTrigger value="all">All</TabsTrigger>
-                    <TabsTrigger value="Internships">Internships</TabsTrigger>
-                    <TabsTrigger value="Webflow">Webflow</TabsTrigger>
-                    <TabsTrigger value="personal">Personal</TabsTrigger>
+            <div className="block md:hidden">
+                <select
+                    className="w-full p-2 border rounded"
+                    value={selectedTab}
+                    onChange={(e) => setSelectedTab(e.target.value)}
+                >
+                    <option value="all">All</option>
+                    <option value="Internships">Internships</option>
+                    <option value="Webflow">Webflow</option>
+                    <option value="personal">Personal</option>
+                </select>
+            </div>
+            <Tabs defaultValue="all" className="hidden md:block w-full">
+                <TabsList className="container grid max-w-[30rem] grid-cols-4">
+                    <TabsTrigger value="all" onClick={() => setSelectedTab("all")}>All</TabsTrigger>
+                    <TabsTrigger value="Internships" onClick={() => setSelectedTab("Internships")}>Internships</TabsTrigger>
+                    <TabsTrigger value="Webflow" onClick={() => setSelectedTab("Webflow")}>Webflow</TabsTrigger>
+                    <TabsTrigger value="personal" onClick={() => setSelectedTab("personal")}>Personal</TabsTrigger>
                 </TabsList>
                 <TabsContent value="all" className="w-full">
                     {renderContent("all")}
@@ -74,8 +86,10 @@ export default function ExperiencePage() {
                 <TabsContent value="personal">
                     {renderContent("personal")}
                 </TabsContent>
-                
             </Tabs>
+            <div className="block md:hidden">
+                {renderContent(selectedTab)}
+            </div>
         </>
     );
 }

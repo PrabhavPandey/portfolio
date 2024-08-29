@@ -12,7 +12,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
     return (
-        <div className="relative p-4 sm:p-6 bg-white border border-gray-200 rounded-lg dark:bg-transparent dark:border-gray-700 w-[86vw] sm:w-auto max-w-sm mx-auto">
+        <div className="relative p-4 sm:p-6 bg-white border border-gray-200 rounded-lg dark:bg-transparent dark:border-gray-700 w-full sm:w-auto max-w-sm mx-auto">
             <div className="relative w-full h-[200px] sm:h-[250px]">
                 <Image
                     className="rounded-lg border border-gray-200 dark:border-gray-700 object-cover"

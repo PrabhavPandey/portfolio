@@ -17,7 +17,7 @@ function ProjectContainer({
     return (
         <div
             className={cn(
-                "flex items-center justify-center mb-4 md:mb-0 [&>div]:w-full ",
+                "flex items-center justify-center mb-4 md:mb-0 w-full",
                 className
             )}
             {...props}
@@ -36,7 +36,7 @@ const renderContent = (tabVal: string) => {
     }
 
     return (
-        <div className="container items-start justify-center gap-6 rounded-lg p-8 sm:grid md:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid justify-center gap-4  md:w-full lg:grid-cols-3 mt-6">
             {expArr.map((exp) => (
                 <ProjectContainer key={exp.id}>
                     <ProjectCard project={exp} />

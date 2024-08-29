@@ -32,7 +32,7 @@ export default function IndexPage() {
                         Prabhav Pandey
                     </h1>
                     <h3 className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl">
-                        Builder🛠️ | Student🎓 | Webflow Dev👨🏻‍💻
+                        Builder🛠️ | Student🎓 | Webflow Developer👨🏻‍💻
                     </h3>
                     <div className="flex flex-col  mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
                         <Link
@@ -42,7 +42,7 @@ export default function IndexPage() {
                             <Icons.contact className="w-4 h-4 mr-2" /> Get in Touch
                         </Link>
                         <Link
-                            href={"https://drive.google.com/file/d/1VGZa5CjAG7WY_RkhBNaKqLPa32Ofa4AO/view?usp=sharing"}
+                            href={"https://drive.google.com/file/d/1i30S80UypIVVG_VgxImdtz9iBAJ3bgWQ/view?usp=drive_link"}
                             target="_blank"
                             rel="noreferrer"
                             className={cn(
@@ -58,7 +58,6 @@ export default function IndexPage() {
                     <Icons.chevronDown className="h-6 w-6 mt-10" />
                 </div>
             </section>
-
             <section
                 id="experience"
                 className="container space-y-6 dark:bg-transparent py-10 my-14"
@@ -67,7 +66,7 @@ export default function IndexPage() {
                     <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
                         {pagesConfig.experience.title}
                     </h2>
-                    <p className="w-[64vw] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+                    <p className="w-[74vw] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
                         {pagesConfig.experience.description}
                     </p>
                 </div>
@@ -91,7 +90,7 @@ export default function IndexPage() {
                     <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
                         {pagesConfig.skills.title}
                     </h2>
-                    <p className="w-[64vw] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+                    <p className="w-[74vw] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
                         {pagesConfig.skills.description}
                     </p>
                 </div>
@@ -111,7 +110,7 @@ export default function IndexPage() {
                     <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
                         {pagesConfig.contributions.title}
                     </h2>
-                    <p className="w-[74vw] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+                    <p className="w-[80vw] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
                         {pagesConfig.contributions.description}
                     </p>
                 </div>

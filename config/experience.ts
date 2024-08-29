@@ -186,7 +186,7 @@ export const Experiences: ExperienceInterface[] = [
         techStack: ["Webflow"],
         startDate: new Date("2021-07-01"),
         endDate: new Date("2022-07-01"),
-        companyLogoImg: "/experience/superquotes/mld_hero.png",
+        companyLogoImg: "/experience/mld/mld_hero.png",
         pagesInfoArr: [],
         descriptionDetails: {
             paragraphs: [
@@ -336,7 +336,7 @@ export const Experiences: ExperienceInterface[] = [
         techStack: ["Javascript", "Wix"],
         startDate: new Date("2019-06-11"),
         endDate: new Date("2019-06-11"), // You can fill this in later
-        companyLogoImg: "/experience/covicaller/Gallery - 1.png",
+        companyLogoImg: "/experience/covicaller/Gallery.png",
         pagesInfoArr: [
             {
                 title: "",

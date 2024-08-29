@@ -336,7 +336,7 @@ export const Experiences: ExperienceInterface[] = [
         techStack: ["Javascript", "Wix"],
         startDate: new Date("2019-06-11"),
         endDate: new Date("2019-06-11"), // You can fill this in later
-        companyLogoImg: "/experience/covicaller/Gallery.png",
+        companyLogoImg: "/experience/covicaller/Gallery.PNG",
         pagesInfoArr: [
             {
                 title: "",

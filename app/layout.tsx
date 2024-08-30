@@ -103,7 +103,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     <ModalProvider />
                 </ThemeProvider>
             </body>
-            <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
+            <Script data-collect-dnt="true" src="https://scripts.simpleanalyticscdn.com/latest.js"  />
         </html>
     );
 }

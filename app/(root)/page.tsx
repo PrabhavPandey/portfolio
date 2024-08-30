@@ -37,6 +37,9 @@ export default function IndexPage() {
                     <h3 className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl">
                         Builder🛠️ | Student🎓 | Webflow Developer👨🏻‍💻
                     </h3>
+                    <p className="leading-normal font-medium text-muted-foreground sm:text-lg sm:leading-7 md:w-[50%]">
+                        Final year engineering student with an interest in product, data and entrepreneurship.
+                    </p>
                     <div className="flex flex-col  mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
                         <Link
                             href={"/#contact"}

@@ -10,6 +10,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { ModalProvider } from "@/providers/modal-provider";
 import { Analytics } from "@/components/analytics";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import Script from 'next/script'
 
 const fontSans = FontSans({
     subsets: ["latin"],
@@ -102,6 +103,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     <ModalProvider />
                 </ThemeProvider>
             </body>
+            <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
         </html>
     );
 }

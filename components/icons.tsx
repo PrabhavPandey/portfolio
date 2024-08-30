@@ -73,8 +73,12 @@ import {
     SiAppsmith
 } from "react-icons/si";
 import { IoIosGitBranch } from "react-icons/io";
+import { FaPenNib } from "react-icons/fa6";
+import { FaBook } from "react-icons/fa";
 
 export const Icons = {
+    cgpa: FaBook,
+    degree: FaPenNib,
     appsmith: SiAppsmith,
     vercel: SiVercel,
     zapier: SiZapier,

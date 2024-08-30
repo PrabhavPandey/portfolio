@@ -27,7 +27,7 @@ export default function Experience({ params }: ExperiencePageProps) {
     }
 
     return (
-        <article className="container relative max-w-3xl py-6 lg:py-10">
+    <article className="container px-1 sm:px-2 relative max-w-3xl py-6 lg:py-10">
             <Link
                 href="/experience"
                 className={cn(

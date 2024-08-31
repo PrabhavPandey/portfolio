@@ -4,7 +4,7 @@ import { Inter as FontSans } from "next/font/google";
 import localFont from "next/font/local";
 
 import { siteConfig } from "@/config/site";
-import { cn } from "@/lib/utils";
+import { cn } from "@/config/lib/utils";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModalProvider } from "@/providers/modal-provider";

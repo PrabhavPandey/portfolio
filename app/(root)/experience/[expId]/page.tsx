@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 
 import { Icons } from "@/components/icons";
 import { buttonVariants } from "@/components/ui/button";
-import { cn, formatDateFromObj } from "@/lib/utils";
+import { cn, formatDateFromObj } from "@/config/lib/utils";
 import { Experiences } from "@/config/experience";
 import prabhavImg from "@/public/prabhav_img.png";
 import ChipContainer from "@/components/chip-container";

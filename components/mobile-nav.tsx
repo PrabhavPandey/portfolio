@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Ubuntu_Mono } from "next/font/google";
 import Confetti from 'react-confetti';
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/config/lib/utils";
 import { useLockBody } from "@/hooks/use-lock-body";
 import { siteConfig } from "@/config/site";
 import { Button } from "@/components/ui/button";

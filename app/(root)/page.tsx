@@ -3,7 +3,7 @@ import Image from "next/image";
 import heroImg from "@/public/prabhav_img.png";
 import hug from "@/public/extra/hug.webp"
 import SkillsCard from "@/components/skills-card";
-import { cn } from "@/lib/utils";
+import { cn } from "@/config/lib/utils";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { featuredSkills } from "@/config/skills";
 import { Icons } from "@/components/icons";

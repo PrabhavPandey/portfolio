@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import ProjectCard from "@/components/project-card";
 import PageHeader from "@/components/page-header";
-import { cn } from "@/lib/utils";
+import { cn } from "@/config/lib/utils";
 import { Experiences } from "@/config/experience";
 import { pagesConfig } from "@/config/pages";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";

@@ -6,7 +6,7 @@ import { usePathname, useSelectedLayoutSegment } from "next/navigation";
 import { Ubuntu_Mono } from "next/font/google"
 import Confetti from 'react-confetti'
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/config/lib/utils";
 import { Icons } from "@/components/icons";
 import { MobileNav } from "@/components/mobile-nav";
 import { siteConfig } from "@/config/site";

@@ -1,4 +1,5 @@
 # About
+![Vercel](https://vercelbadge.vercel.app/api/prabhavpandey/portfolio?style=for-the-badge)
 
 My take on [@namanbarkiya](https://github.com/namanbarkiya)'s portfolio template. Built with Next.js 14 and shadcn.
 

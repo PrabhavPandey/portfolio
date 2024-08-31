@@ -1,6 +1,8 @@
 # About
 
-My take on @namanbarkiya's portfolio template. Built with Next.js 14 and shadcn.
+My take on [@namanbarkiya](https://github.com/namanbarkiya)'s portfolio template. Built with Next.js 14 and shadcn.
+
+![preview](https://raw.githubusercontent.com/PrabhavPandey/portfolio/master/public/hero.png?token=GHSAT0AAAAAACVD2N7U7TDSBCTPVALBPZUKZWTBMWA)
 
 ## Local Setup
 

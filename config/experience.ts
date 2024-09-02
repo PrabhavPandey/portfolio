@@ -70,39 +70,6 @@ export const Experiences: ExperienceInterface[] = [
         },
     },
     {
-        id: "zorp",
-        companyName: "Data Intern @ Zorp",
-        type: "Internships",
-        category: ["Internship", "Summer - 2023"],
-        shortDescription:
-            "Data analyst intern at Zorp - A Bangalore based tech startup. Worked as a part of the growth and data verticals.",
-        websiteLink: "https://www.linkedin.com/posts/prabhav-pandey_two-months-wrapped-up-at-zorp-as-a-technical-activity-7092161041660313602-H2xS",
-        techStack: ["Python", "SQL", "Supabase", "Retool", "Appsmith"],
-        startDate: new Date("2023-06-01"),
-        endDate: new Date("2023-08-01"),
-        companyLogoImg: "/experience/zorp/zorp.png",
-        pagesInfoArr: [
-            {
-                title: "",
-                description: "",
-                imgArr: [
-                    "/experience/zorp/team.jpg",
-                    "/experience/zorp/pic.jpg"
-                ],
-            },
-        ],
-        descriptionDetails: {
-            paragraphs: [
-                "As a part of my summer break after my 2nd year, I interned at Zorp as a Data Analyst Intern. I met some amazing people here and shipped close to 5 tools over the two months.",
-            ],
-            bullets: [
-                "Built an ETL pipeline, transforming daily client operations data into actionable insights on employee and supply chain performance, saving close to 15 hours/week through proactive trend analysis.",
-                "Increased paid subscriber retention by 30% via an automated ML Driven anomaly detection dashboard",
-                "Used Python, Supabase, and data visualization using Pandas, Matplotlib & Seaborn on an 80k+ items large dataset."
-            ],
-        },
-    },
-    {
         id: "snuxplore",
         companyName: "Co-founder @ SNUxplore",
         type: "Personal Project",
@@ -113,7 +80,7 @@ export const Experiences: ExperienceInterface[] = [
         githubLink: "https://github.com/PrabhavPandey/frontend",
         techStack: ["Sass", "Prisma", "Remix.js"],
         startDate: new Date("2022-05-01"),
-        endDate: new Date("2022-05-01"), // You can fill this in later
+        endDate: new Date("2022-05-01"), 
         companyLogoImg: "/experience/snuxplore/web.png",
         pagesInfoArr: [
             {
@@ -145,6 +112,106 @@ export const Experiences: ExperienceInterface[] = [
                 "Led a team of 14 devs, designers and writers across the product lifecycle.",
                 "Recognised by the college administration, and also used by students on a daily basis.",
                 "Developed an AI chatbot trained on the student rulebook to address student queries.",
+            ],
+        },
+    },
+    {
+        id: "invoicex",
+        companyName: "invoiceX",
+        type: "Personal Project",
+        category: ["Project", "Data Science", "AI"],
+        shortDescription:
+            "A free, fast and simple web-based invoice generator and invoice analysis tool. Never waste time on invoices again.",
+        websiteLink: "https://invoicex.streamlit.app/",
+        githubLink: "https://github.com/PrabhavPandey/invoiceX",
+        techStack: ["Python", "Streamlit", "Gemini API"],
+        startDate: new Date("2019-06-11"),
+        endDate: new Date("2019-06-11"), 
+        companyLogoImg: "/experience/invoicex/one.png",
+        pagesInfoArr: [
+            {
+                title: "",
+                description: "",
+                imgArr: [
+                    "/experience/invoicex/gen.png",
+                ],
+            },
+        ],
+        descriptionDetails: {
+            paragraphs: [
+                "A free, fast and simple web-based invoice generator and invoice analysis tool. I built this to help clubs in my college spends less time on invoice management.",
+                "Ideal for small businesses and freelancers to stay on top of their payments and invoices.",
+            ],
+            bullets: [
+                "Invoice Generator: Generate invoices in a jiffy. Just fill in the details and download the invoice as a PDF - no sign up, no payment.",
+                "Ask Invoice: Just upload the invoice and ask it anything about it. Total tax, amount, due date, you name it. Using Gemini API.",
+            ],
+        },
+    },
+
+    {
+        id: "namma",
+        companyName: "NammaYatri - Estimator",
+        type: "Personal Project",
+        category: ["Project", "Data Science", "ML"],
+        shortDescription:
+            "Fare and cancellation predictor for Namma Yatri autos in Bangalore. ML model trained on Yatri open data.",
+        websiteLink: "https://pls-dont-cancel-anna.streamlit.app/",
+        githubLink: "https://github.com/PrabhavPandey/pls-dont-cancel-anna",
+        techStack: ["Python", "Streamlit", "Pandas", "sklearn", "numpy"],
+        startDate: new Date("2019-06-11"),
+        endDate: new Date("2019-06-11"), 
+        companyLogoImg: "/experience/nammayatri/one.png",
+        pagesInfoArr: [
+            {
+                title: "",
+                description: "",
+                imgArr: [
+                    "/experience/nammayatri/two.png",
+                ],
+            },
+        ],
+        descriptionDetails: {
+            paragraphs: [
+                "An exploratory data science project to predict the fare and cancellation of Namma Yatri autos in Bangalore.",
+                "Datasource: Namma Yatri Open Data (10k+ items).",
+            ],
+            bullets: [
+                "Fare Estimator: Just enter the source and ride distance, and the model predicts the fare for you based on historical data.",
+                "Cancellation Predictor: With the same inputs as above, and the model predicts the probability of the ride being cancelled - the age old problem of Bengaluru!",
+            ],
+        },
+    },
+    {
+        id: "zorp",
+        companyName: "Data Intern @ Zorp",
+        type: "Internships",
+        category: ["Internship", "Summer - 2023"],
+        shortDescription:
+            "Data analyst intern at Zorp - A Bangalore based tech startup. Worked as a part of the growth and data verticals.",
+        websiteLink: "https://www.linkedin.com/posts/prabhav-pandey_two-months-wrapped-up-at-zorp-as-a-technical-activity-7092161041660313602-H2xS",
+        techStack: ["Python", "SQL", "Supabase", "Retool", "Appsmith"],
+        startDate: new Date("2023-06-01"),
+        endDate: new Date("2023-08-01"),
+        companyLogoImg: "/experience/zorp/zorp.png",
+        pagesInfoArr: [
+            {
+                title: "",
+                description: "",
+                imgArr: [
+                    "/experience/zorp/team.jpg",
+                    "/experience/zorp/pic.jpg"
+                ],
+            },
+        ],
+        descriptionDetails: {
+            paragraphs: [
+                "As a part of my summer break after my 2nd year, I interned at Zorp as a Data Analyst Intern. I met some amazing people here and shipped close to 5 tools over the two months.",
+            ],
+            bullets: [
+                "Built an ETL pipeline, transforming daily client operations data into actionable insights on employee and supply chain performance, saving close to 15 hours/week through proactive trend analysis.",
+                "Increased paid subscriber retention by 30% via an automated ML Driven anomaly detection dashboard",
+                "Used Python, Supabase, and data visualization using Pandas, Matplotlib & Seaborn on an 80k+ items large dataset."
             ],
         },
     },
@@ -249,11 +316,11 @@ export const Experiences: ExperienceInterface[] = [
         category: ["Internship"],
         shortDescription:
             "Frontend Engineering intern at an early stage Crypto startup based in Bangalore.",
-        websiteLink: "", // You can fill this in later
-        githubLink: "", // You can fill this in later
+        websiteLink: "", 
+        githubLink: "", 
         techStack: ["Webflow", "Next.js", "Firebase", "CSS 3"],
         startDate: new Date("2022-05-01"),
-        endDate: new Date("2022-05-01"), // You can fill this in later
+        endDate: new Date("2022-05-01"), 
         companyLogoImg: "/experience/cc/logo.jpeg",
         pagesInfoArr: [
         ],
@@ -278,11 +345,11 @@ export const Experiences: ExperienceInterface[] = [
         category: ["Internship"],
         shortDescription:
             "Frontend Engineering intern at an e-learning company based in Delhi.",
-        websiteLink: "https://easetolearn.com/", // You can fill this in later
-        githubLink: "", // You can fill this in later
+        websiteLink: "https://easetolearn.com/", 
+        githubLink: "", 
         techStack: ["Next.js", "CSS 3", "Material UI", "Axios"],
         startDate: new Date("2022-05-01"),
-        endDate: new Date("2022-05-01"), // You can fill this in later
+        endDate: new Date("2022-05-01"), 
         companyLogoImg: "/experience/etl/logo.png",
         pagesInfoArr: [
         ],
@@ -307,11 +374,18 @@ export const Experiences: ExperienceInterface[] = [
             "A JavaScript based chrome extension to save links on the go. This was my first open source project.",
         websiteLink: "https://github.com/PrabhavPandey/link-vault", 
         githubLink: "https://github.com/PrabhavPandey/link-vault", 
-        techStack: ["Next.js", "CSS 3", "Material UI", "Axios"],
+        techStack: ["Javascript", "HTML 5", "CSS 3"],
         startDate: new Date("2022-05-01"),
         endDate: new Date("2022-05-01"),
-        companyLogoImg: "/experience/link/snip.png",
+        companyLogoImg: "/experience/link/icon.png",
         pagesInfoArr: [
+            {
+                title: "",
+                description: "",
+                imgArr: [
+                    "/experience/link/snip.png",
+                ],
+            },
         ],
         descriptionDetails: {
             paragraphs: [
@@ -331,11 +405,11 @@ export const Experiences: ExperienceInterface[] = [
         category: ["Project", "Web Dev"],
         shortDescription:
             "A crowdsourced contact directory to tackle Covid-19 scams in India. My first taste of entrepreneurship.",
-        websiteLink: "https://prabhavp380.wixsite.com/covicaller", // You can fill this in later
-        githubLink: "", // You can fill this in later
+        websiteLink: "https://prabhavp380.wixsite.com/covicaller", 
+        githubLink: "", 
         techStack: ["Javascript", "Wix"],
         startDate: new Date("2019-06-11"),
-        endDate: new Date("2019-06-11"), // You can fill this in later
+        endDate: new Date("2019-06-11"), 
         companyLogoImg: "/experience/covicaller/Gallery.PNG",
         pagesInfoArr: [
             {
@@ -361,6 +435,7 @@ export const Experiences: ExperienceInterface[] = [
             ],
         },
     },
+    
 ];
 
 export const featuredExperiences = Experiences.slice(0, 3);

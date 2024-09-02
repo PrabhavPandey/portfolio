@@ -3,9 +3,14 @@ export type ValidSkills =
     | "Remix.js"
     | "Sass"
     | "Prisma"
+    | "Streamlit"
     | "Webflow"
     | "React"
+    | "Pandas"
+    | "Gemini API"
     | "Javascript"
+    | "numpy"
+    | "sklearn"
     | "HTML 5"
     | "CSS 3"
     | "Material UI"
@@ -31,6 +36,9 @@ export type ValidCategory =
     | "Freelance"
     | "Project"
     | "Summer - 2023"
+    | "Data Science"
+    | "AI"
+    | "ML"
     | "Summer - 2024";
 
 export type ValidExpType = "Personal Project" | "Webflow" | "Internships";

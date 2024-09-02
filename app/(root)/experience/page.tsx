@@ -64,7 +64,7 @@ export default function ExperiencePage() {
                     <option value="all">All</option>
                     <option value="Internships">Internships</option>
                     <option value="Webflow">Webflow</option>
-                    <option value="personal">Personal</option>
+                    <option value="personal">Projects</option>
                 </select>
             </div>
             <Tabs defaultValue="all" className="hidden md:block w-full">
@@ -72,7 +72,7 @@ export default function ExperiencePage() {
                     <TabsTrigger value="all" onClick={() => setSelectedTab("all")}>All</TabsTrigger>
                     <TabsTrigger value="Internships" onClick={() => setSelectedTab("Internships")}>Internships</TabsTrigger>
                     <TabsTrigger value="Webflow" onClick={() => setSelectedTab("Webflow")}>Webflow</TabsTrigger>
-                    <TabsTrigger value="personal" onClick={() => setSelectedTab("personal")}>Personal</TabsTrigger>
+                    <TabsTrigger value="personal" onClick={() => setSelectedTab("personal")}>Projects</TabsTrigger>
                 </TabsList>
                 <TabsContent value="all" className="w-full">
                     {renderContent("all")}

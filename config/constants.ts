@@ -43,4 +43,4 @@ export type ValidCategory =
 
 export type ValidExpType = "Personal Project" | "Webflow" | "Internships";
 
-export type ValidPages = "skills" | "experience" | "contact" | "contributions";
+export type ValidPages = "skills" | "experience" | "contact" | "contributions" | "education";

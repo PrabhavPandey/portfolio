@@ -48,7 +48,7 @@ export default function IndexPage() {
                             <Icons.contact className="w-4 h-4 mr-2" /> Get in Touch
                         </Link>
                         <Link
-                            href={"https://drive.google.com/file/d/1i30S80UypIVVG_VgxImdtz9iBAJ3bgWQ/view?usp=drive_link"}
+                            href={"https://drive.google.com/file/d/1curTc2Vv4GZNFEVza_FMWtZ8KGLZQoeH/view?usp=sharing"}
                             target="_blank"
                             rel="noreferrer"
                             className={cn(
@@ -93,11 +93,11 @@ export default function IndexPage() {
                 className="container space-y-6 bg-slate-50 dark:bg-transparent py-10 my-14"
             >
                 <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-                    <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
-                        Education
+                    <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl mt-6">
+                        {pagesConfig.education.title}
                     </h2>
                     <p className="w-[86vw] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-                        My academic journey.
+                        {pagesConfig.education.description}
                     </p>
                 </div>
                 <EducationCard education={featuredEducation} />

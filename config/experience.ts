@@ -51,8 +51,8 @@ export const Experiences: ExperienceInterface[] = [
                 title: "",
                 description: "",
                 imgArr: [
-                    "/experience/accenture/office.jpg",
-                    "/experience/accenture/team.jpg",
+                    "/experience/accenture/office.webp",
+                    "/experience/accenture/team.webp",
                 ],
             },
         ],
@@ -81,14 +81,13 @@ export const Experiences: ExperienceInterface[] = [
         techStack: ["Sass", "Prisma", "Remix.js"],
         startDate: new Date("2022-05-01"),
         endDate: new Date("2022-05-01"), 
-        companyLogoImg: "/experience/snuxplore/web.png",
+        companyLogoImg: "/experience/snuxplore/web.webp",
         pagesInfoArr: [
             {
                 title: "",
                 description: "Statistics as of Aug 10, 2024",
                 imgArr: [
                     "/experience/snuxplore/stats.jpg",
-
                 ],
             },
             {
@@ -97,8 +96,7 @@ export const Experiences: ExperienceInterface[] = [
                 imgArr: [
                     "/experience/snuxplore/two.jpg",
                     "/experience/snuxplore/one.jpg",
-                    "/experience/snuxplore/three.jpg",
-                    "/experience/snuxplore/four.jpeg",
+                    "/experience/snuxplore/four.webp",
                 ],
             },
         ],
@@ -199,8 +197,8 @@ export const Experiences: ExperienceInterface[] = [
                 title: "",
                 description: "",
                 imgArr: [
-                    "/experience/zorp/team.jpg",
-                    "/experience/zorp/pic.jpg"
+                    "/experience/zorp/team.webp",
+                    "/experience/zorp/pic.webp"
                 ],
             },
         ],
@@ -228,7 +226,7 @@ export const Experiences: ExperienceInterface[] = [
         ],
         startDate: new Date("2021-07-01"),
         endDate: new Date("2022-07-01"),
-        companyLogoImg: "/experience/exponent/hero_exponent.png",
+        companyLogoImg: "/experience/exponent/hero_exponent.webp",
         pagesInfoArr: [],
         descriptionDetails: {
             paragraphs: [
@@ -253,7 +251,7 @@ export const Experiences: ExperienceInterface[] = [
         techStack: ["Webflow"],
         startDate: new Date("2021-07-01"),
         endDate: new Date("2022-07-01"),
-        companyLogoImg: "/experience/mld/mld_hero.png",
+        companyLogoImg: "/experience/mld/mld_hero.webp",
         pagesInfoArr: [],
         descriptionDetails: {
             paragraphs: [
@@ -276,7 +274,7 @@ export const Experiences: ExperienceInterface[] = [
         techStack: ["Webflow"],
         startDate: new Date("2021-07-14"),
         endDate: new Date("2022-07-01"),
-        companyLogoImg: "/experience/smile/smile_hero.png",
+        companyLogoImg: "/experience/smile/smile_hero.webp",
         pagesInfoArr: [],
         descriptionDetails: {
             paragraphs: [
@@ -299,7 +297,7 @@ export const Experiences: ExperienceInterface[] = [
         techStack: ["Webflow"],
         startDate: new Date("2022-03-01"),
         endDate: new Date("2022-07-01"),
-        companyLogoImg: "/experience/shosty/shosty_hero.png",
+        companyLogoImg: "/experience/shosty/shosty_hero.webp",
         pagesInfoArr: [],
         descriptionDetails: {
             paragraphs: [

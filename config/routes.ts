@@ -7,6 +7,10 @@ export const routesConfig: any = {
             href: "/experience",
         },
         {
+            title: "Education",
+            href: "/#education",
+        },
+        {
             title: "Skills",
             href: "/skills",
         },
@@ -17,7 +21,6 @@ export const routesConfig: any = {
         {
             title: "Contact",
             href: "/#contact"
-        }
-
+        },
     ],
 };

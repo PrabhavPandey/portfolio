@@ -14,6 +14,11 @@ export const pagesConfig: PagesConfig = {
         description: "Internships, Projects & Freelance work.",
         // featuredDescription: "Work Timeline",
     },
+    education: {
+        title: "Education",
+        description: "My academic journey.",
+        // featuredDescription: "Work Timeline",
+    },
     skills: {
         title: "Skills",
         description: "Here's what YouTube has taught me in the last 4 years.",

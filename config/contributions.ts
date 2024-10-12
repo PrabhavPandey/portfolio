@@ -9,6 +9,15 @@ export interface contributionsInterface {
 
 export const contributionsUnsorted: contributionsInterface[] = [
     {
+        repo: "🥇 National Winners",
+        contibutionDescription:
+            "Placed 1/600 teams in Finshots Idea Lab - A national level case competition.",
+        repoOwner: "Shiv Nadar University",
+        image: "/extra/winshots.jpg",
+        link: "https://www.linkedin.com/posts/prabhav-pandey_national-winners-finshots-idea-lab-season-activity-7245844397781630976-eBfx",
+        year: "Oct, 2024"
+    },
+    {
         repo: "💙Secretary - Club Head",
         contibutionDescription:
             "Led a team of 100 members to conduct the most loved  events & competitions on campus.",

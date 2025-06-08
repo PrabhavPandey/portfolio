@@ -3,23 +3,23 @@ import { title } from "process";
 export const routesConfig: any = {
     mainNav: [
         {
-            title: "Experience",
+            title: "experience",
             href: "/experience",
         },
         {
-            title: "Education",
+            title: "education",
             href: "/#education",
         },
         {
-            title: "Skills",
+            title: "skills",
             href: "/skills",
         },
         {
-            title: "Who am I?",
+            title: "who am i?",
             href: "/contributions",
         },
         {
-            title: "Contact",
+            title: "contact",
             href: "/#contact"
         },
     ],

@@ -10,27 +10,27 @@ type PagesConfig = {
 
 export const pagesConfig: PagesConfig = {
     experience: {
-        title: "Experience",
-        description: "Internships, Projects & Freelance work.",
+        title: "experience",
+        description: "internships, projects & freelance work.",
         // featuredDescription: "Work Timeline",
     },
     education: {
-        title: "Education",
-        description: "My academic journey.",
+        title: "education",
+        description: "my academic journey.",
         // featuredDescription: "Work Timeline",
     },
     skills: {
-        title: "Skills",
-        description: "Here's what YouTube has taught me in the last 4 years.",
+        title: "skills",
+        description: "here's what youtube has taught me in the last 4 years.",
         // featuredDescription: "Skill Showcase",
     },
     contributions: {
-        title: "Who am I?",
-        description: "Positions of leadership & extra curriculars that define me (sorted by date).",
+        title: "who am i?",
+        description: "positions of leadership & extra curriculars that define me (sorted by date).",
         // featuredDescription: "Contributions Showcase",
     },
     contact: {
-        title: "Get in touch.",
-        description: "Book a slot on Calendly or DM me on LinkedIn. I reply fast.",
+        title: "get in touch.",
+        description: "book a slot on calendly or dm me on linkedin. i reply fast.",
     },
 };

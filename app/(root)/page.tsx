@@ -32,23 +32,23 @@ export default function IndexPage() {
                         alt="prabhav-img"
                     />
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        Prabhav Pandey
+                        prabhav pandey
                     </h1>
-                    <h3 className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl">
-                        Builder🛠️ | Student🎓 | Webflow Developer👨🏻‍💻
-                    </h3>
-                    <p className="leading-normal font-medium text-muted-foreground sm:text-lg sm:leading-7 md:w-[50%]">
-                        Final year engineering student with an interest in product, data and entrepreneurship.
+                    {/* <h3 className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl">
+                        bain & co | 2x-founder | ai, product, data
+                    </h3> */}
+                    <p className="leading-normal font-medium  sm:text-lg sm:leading-7 md:w-[50%]">
+                        intern @ bain & co • 2x-founder • ai, product, data
                     </p>
                     <div className="flex flex-col  mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
                         <Link
                             href={"/#contact"}
                             className={cn(buttonVariants({ size: "lg" }))}
                         >
-                            <Icons.contact className="w-4 h-4 mr-2" /> Get in Touch
+                            <Icons.contact className="w-4 h-4 mr-2" /> get in touch
                         </Link>
                         <Link
-                            href={"https://drive.google.com/file/d/1curTc2Vv4GZNFEVza_FMWtZ8KGLZQoeH/view?usp=sharing"}
+                            href={"https://drive.google.com/file/d/11py1XeDlGG9dx9MTYbTGQ5ws9aDZN0go/view?usp=sharing"}
                             target="_blank"
                             rel="noreferrer"
                             className={cn(
@@ -58,7 +58,7 @@ export default function IndexPage() {
                                 })
                             )}
                         >
-                            <Icons.resume className="w-4 h-4 mr-2" /> Resumé
+                            <Icons.resume className="w-4 h-4 mr-2" /> resumé
                         </Link>
                     </div>
                     <Icons.chevronDown className="h-6 w-6 mt-10" />
@@ -84,7 +84,7 @@ export default function IndexPage() {
                 </div>
                 <Link href="/experience" className="flex justify-center">
                     <Button variant={"outline"} className="rounded-xl">
-                        <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+                        <Icons.chevronDown className="mr-2 h-4 w-4" /> view all
                     </Button>
                 </Link>
             </section>
@@ -118,7 +118,7 @@ export default function IndexPage() {
                 <SkillsCard skills={featuredSkills} />
                 <Link href="/skills" className="flex justify-center">
                     <Button variant={"outline"} className="rounded-xl">
-                        <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+                        <Icons.chevronDown className="mr-2 h-4 w-4" /> view all
                     </Button>
                 </Link>
             </section>
@@ -140,7 +140,7 @@ export default function IndexPage() {
                 </div>
                 <Link href="/contributions" className="flex justify-center">
                     <Button variant={"outline"} className="rounded-xl">
-                        <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+                        <Icons.chevronDown className="mr-2 h-4 w-4" /> view all
                     </Button>
                 </Link>
             </section>
@@ -158,7 +158,7 @@ export default function IndexPage() {
                     </p>
                     <CalendlyEmbed
                         url="https://calendly.com/prabhavpandey/30minute?hide_gdpr_banner=1"
-                        text="Calendly - Let's talk!"
+                        text="calendly - let's talk!"
                         color=" #0069ff"
                         textColor="#ffffff"
                         branding={false}

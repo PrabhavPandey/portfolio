@@ -10,57 +10,57 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
     {
-        name: "Webflow",
+        name: "webflow",
         description:
-            "With 4 yrs and 20+ sites of experience, I'm your go-to Webflow guy.",
+            "with 4 yrs and 20+ sites of experience, i'm your go-to webflow guy.",
         icon: Icons.webflow,
     },
     {
-        name: "Python",
+        name: "python",
         description:
-            "My first ever programming language. Use it daily to this day.",
+            "my first ever programming language. use it daily to this day.",
         icon: Icons.python,
     },
     {
-        name: "MySQL",
-        description: "The most useful thing I learnt in high school, hands down.",
+        name: "mysql",
+        description: "the most useful thing i learnt in high school, hands down.",
         icon: Icons.mysql,
     },
     {
-        name: "Supabase",
-        description: "Thank god for Supabase. Complex schemas built in minutes.",
+        name: "supabase",
+        description: "thank god for supabase. complex schemas built in minutes.",
         icon: Icons.supabase,
     },
     {
-        name: "React",
+        name: "react",
         description:
-            "My introduction to web dev. I've tried 6 React frameworks, all the same to me.",
+            "my introduction to web dev. i've tried 6 react frameworks, all the same to me.",
         icon: Icons.react,
     },
     {
-        name: "Retool",
-        description: "The fastest way to build an idea out. Highly reccommed.",
+        name: "retool",
+        description: "the fastest way to build an idea out. highly reccommed.",
         icon: Icons.retool,
     },
     {
-        name: "Zapier",
+        name: "zapier",
         description:
-            "Built way too many automations for job hunting, internships & projects.",
+            "built way too many automations for job hunting, internships & projects.",
         icon: Icons.zapier,
     },
     {
-        name: "Git",
-        description: "I'm a developer. I better know this (I don't).",
+        name: "git",
+        description: "i'm a developer. i better know this (i don't).",
         icon: Icons.git,
     },
     {
-        name: "Vercel",
-        description: "I've used other hosting tools, but this one's my favorite.",
+        name: "vercel",
+        description: "i've used other hosting tools, but this one's my favorite.",
         icon: Icons.vercel,
     },
     {
-        name: "Appsmith",
-        description: "Similar to Retool, but better. Go-to internal tool builder.",
+        name: "appsmith",
+        description: "similar to retool, but better. go-to internal tool builder.",
         icon: Icons.appsmith,
     },
 ];

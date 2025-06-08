@@ -156,7 +156,7 @@
   font-size: 0.65rem;
   font-weight: bold;
   letter-spacing: 0.025rem;
-  text-transform: uppercase;
+  /* text-transform removed */
   color: white;
   background-color: black;
   border: none;

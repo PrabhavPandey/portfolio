@@ -29,19 +29,60 @@ export interface ExperienceInterface {
 
 export const Experiences: ExperienceInterface[] = [
     {
-        id: "accenture",
-        companyName: "SWE Intern @ Accenture",
-        type: "Internships",
-        category: ["Internship", "Summer - 2024"],
+        id: "bain & company",
+        companyName: "tech consultant @ bain & co.",
+        type: "internships",
+        category: ["internship", "winter - 2025"],
         shortDescription:
-            "Summer intern at Accenture Bangalore. Worked as a part of the capital projects GenAI team.",
+            "tech consultant intern at bain & co. worked on high impact tech transformation cases and building custom ai solutions.",
         websiteLink: "https://www.linkedin.com/posts/prabhav-pandey_accenture-aseintern-accentureintern-activity-7221493820859854848-4oaa",
         githubLink: "",
         techStack: [
-            "Python",
-            "Langchain",
-            "Angular",
-            "AWS"
+            "python",
+            "langchain",
+            "angular",
+            "aws"
+        ],
+        startDate: new Date("2024-05-20"),
+        endDate: new Date("2024-07-20"),
+        companyLogoImg: "/experience/bain/logo.jpg",
+        pagesInfoArr: [
+            {
+                title: "",
+                description: "",
+                imgArr: [
+                    "/experience/accenture/office.webp",
+                    "/experience/accenture/team.webp",
+                ],
+            },
+        ],
+        descriptionDetails: {
+            paragraphs: [
+                "As a part of my two month summer internship in my 3rd year break, I interned at Accenture - Bangalore as an Associate Software Engineering Intern.",
+                "Learnt the ropes of application based RAG and GenAI development while working in a corporate environment."
+                ,
+            ],
+            bullets: [
+                "Engineered a custom knowledge GenAI chatbot using Python, LangChain, and Azure. Achieved 50x faster multi-PDF processing.",
+                "Enabled intelligent, context-aware processing across large documents with images and unstructured tables.",
+                "Implemented the model using AzureOpenAI and NLP techniques, boosting information retrieval efficiency by 40% in comparison to existing models."
+            ],
+        },
+    },
+    {
+        id: "accenture",
+        companyName: "swe intern @ accenture",
+        type: "internships",
+        category: ["internship", "summer - 2024"],
+        shortDescription:
+            "summer intern at accenture bangalore. worked as a part of the capital projects genai team.",
+        websiteLink: "https://www.linkedin.com/posts/prabhav-pandey_accenture-aseintern-accentureintern-activity-7221493820859854848-4oaa",
+        githubLink: "",
+        techStack: [
+            "python",
+            "langchain",
+            "angular",
+            "aws"
         ],
         startDate: new Date("2024-05-20"),
         endDate: new Date("2024-07-20"),
@@ -71,16 +112,16 @@ export const Experiences: ExperienceInterface[] = [
     },
     {
         id: "snuxplore",
-        companyName: "Co-founder @ SNUxplore",
-        type: "Personal Project",
-        category: ["Project", "Web Dev"],
+        companyName: "co-founder @ snuxplore",
+        type: "personal project",
+        category: ["project", "web dev"],
         shortDescription:
-            "Comprehensive navigation platform for my college campus. 140k+ visits & 8k+ unique users globally.",
+            "comprehensive navigation platform for my college campus. 140k+ visits & 8k+ unique users globally.",
         websiteLink: "https://youtu.be/gAexYOZn2rs?si=j2ehIi9M-fCQ_jLL",
         githubLink: "https://github.com/PrabhavPandey/frontend",
-        techStack: ["Sass", "Prisma", "Remix.js"],
+        techStack: ["sass", "prisma", "remix.js"],
         startDate: new Date("2022-05-01"),
-        endDate: new Date("2022-05-01"), 
+        endDate: new Date("2022-05-01"),
         companyLogoImg: "/experience/snuxplore/web.webp",
         pagesInfoArr: [
             {
@@ -124,7 +165,7 @@ export const Experiences: ExperienceInterface[] = [
         githubLink: "https://github.com/PrabhavPandey/invoiceX",
         techStack: ["Python", "Streamlit", "Gemini API"],
         startDate: new Date("2019-06-11"),
-        endDate: new Date("2019-06-11"), 
+        endDate: new Date("2019-06-11"),
         companyLogoImg: "/experience/invoicex/one.png",
         pagesInfoArr: [
             {
@@ -158,7 +199,7 @@ export const Experiences: ExperienceInterface[] = [
         githubLink: "https://github.com/PrabhavPandey/pls-dont-cancel-anna",
         techStack: ["Python", "Streamlit", "Pandas", "sklearn", "numpy"],
         startDate: new Date("2019-06-11"),
-        endDate: new Date("2019-06-11"), 
+        endDate: new Date("2019-06-11"),
         companyLogoImg: "/experience/nammayatri/one.png",
         pagesInfoArr: [
             {
@@ -256,7 +297,7 @@ export const Experiences: ExperienceInterface[] = [
         descriptionDetails: {
             paragraphs: [
                 `My Lifestyle Doc, established by, Dr. Sarah Schuetz is dedicated to empowering patients to harness the power of lifestyle choices in improving their health and well-being.
-                
+
                 I was a part of a two-person team, responsible for the development of all the pages on Webflow
                 `,
             ],
@@ -314,11 +355,11 @@ export const Experiences: ExperienceInterface[] = [
         category: ["Internship"],
         shortDescription:
             "Frontend Engineering intern at an early stage Crypto startup based in Bangalore.",
-        websiteLink: "", 
-        githubLink: "", 
+        websiteLink: "",
+        githubLink: "",
         techStack: ["Webflow", "Next.js", "Firebase", "CSS 3"],
         startDate: new Date("2022-05-01"),
-        endDate: new Date("2022-05-01"), 
+        endDate: new Date("2022-05-01"),
         companyLogoImg: "/experience/cc/logo.jpeg",
         pagesInfoArr: [
         ],
@@ -343,11 +384,11 @@ export const Experiences: ExperienceInterface[] = [
         category: ["Internship"],
         shortDescription:
             "Frontend Engineering intern at an e-learning company based in Delhi.",
-        websiteLink: "https://easetolearn.com/", 
-        githubLink: "", 
+        websiteLink: "https://easetolearn.com/",
+        githubLink: "",
         techStack: ["Next.js", "CSS 3", "Material UI", "Axios"],
         startDate: new Date("2022-05-01"),
-        endDate: new Date("2022-05-01"), 
+        endDate: new Date("2022-05-01"),
         companyLogoImg: "/experience/etl/logo.png",
         pagesInfoArr: [
         ],
@@ -370,8 +411,8 @@ export const Experiences: ExperienceInterface[] = [
         category: ["Project", "Web Dev"],
         shortDescription:
             "A JavaScript based chrome extension to save links on the go. This was my first open source project.",
-        websiteLink: "https://github.com/PrabhavPandey/link-vault", 
-        githubLink: "https://github.com/PrabhavPandey/link-vault", 
+        websiteLink: "https://github.com/PrabhavPandey/link-vault",
+        githubLink: "https://github.com/PrabhavPandey/link-vault",
         techStack: ["Javascript", "HTML 5", "CSS 3"],
         startDate: new Date("2022-05-01"),
         endDate: new Date("2022-05-01"),
@@ -403,11 +444,11 @@ export const Experiences: ExperienceInterface[] = [
         category: ["Project", "Web Dev"],
         shortDescription:
             "A crowdsourced contact directory to tackle Covid-19 scams in India. My first taste of entrepreneurship.",
-        websiteLink: "https://prabhavp380.wixsite.com/covicaller", 
-        githubLink: "", 
+        websiteLink: "https://prabhavp380.wixsite.com/covicaller",
+        githubLink: "",
         techStack: ["Javascript", "Wix"],
         startDate: new Date("2019-06-11"),
-        endDate: new Date("2019-06-11"), 
+        endDate: new Date("2019-06-11"),
         companyLogoImg: "/experience/covicaller/Gallery.PNG",
         pagesInfoArr: [
             {
@@ -416,7 +457,7 @@ export const Experiences: ExperienceInterface[] = [
                 imgArr: [
                     "/experience/covicaller/news.png",
                     "/experience/covicaller/reddit.png",
-                    
+
 
                 ],
             },
@@ -433,7 +474,7 @@ export const Experiences: ExperienceInterface[] = [
             ],
         },
     },
-    
+
 ];
 
 export const featuredExperiences = Experiences.slice(0, 3);

@@ -31,17 +31,17 @@ export const Experiences: ExperienceInterface[] = [
     {
         id: "bain & company",
         companyName: "tech consultant @ bain & co.",
-        type: "internships",
-        category: ["internship", "winter - 2025"],
+        type: "Internships",
+        category: ["Internship", "AI"],
         shortDescription:
             "tech consultant intern at bain & co. worked on high impact tech transformation cases and building custom ai solutions.",
         websiteLink: "https://www.linkedin.com/posts/prabhav-pandey_accenture-aseintern-accentureintern-activity-7221493820859854848-4oaa",
         githubLink: "",
         techStack: [
-            "python",
-            "langchain",
-            "angular",
-            "aws"
+            "Python",
+            "Langchain",
+            "Angular",
+            "AWS"
         ],
         startDate: new Date("2024-05-20"),
         endDate: new Date("2024-07-20"),
@@ -72,17 +72,17 @@ export const Experiences: ExperienceInterface[] = [
     {
         id: "accenture",
         companyName: "swe intern @ accenture",
-        type: "internships",
-        category: ["internship", "summer - 2024"],
+        type: "Internships",
+        category: ["Internship", "AI"],
         shortDescription:
             "summer intern at accenture bangalore. worked as a part of the capital projects genai team.",
         websiteLink: "https://www.linkedin.com/posts/prabhav-pandey_accenture-aseintern-accentureintern-activity-7221493820859854848-4oaa",
         githubLink: "",
         techStack: [
-            "python",
-            "langchain",
-            "angular",
-            "aws"
+            "Python",
+            "Langchain",
+            "Angular",
+            "AWS"
         ],
         startDate: new Date("2024-05-20"),
         endDate: new Date("2024-07-20"),
@@ -113,13 +113,13 @@ export const Experiences: ExperienceInterface[] = [
     {
         id: "snuxplore",
         companyName: "co-founder @ snuxplore",
-        type: "personal project",
-        category: ["project", "web dev"],
+        type: "Personal Project",
+        category: ["Project", "Web Dev"],
         shortDescription:
             "comprehensive navigation platform for my college campus. 140k+ visits & 8k+ unique users globally.",
         websiteLink: "https://youtu.be/gAexYOZn2rs?si=j2ehIi9M-fCQ_jLL",
         githubLink: "https://github.com/PrabhavPandey/frontend",
-        techStack: ["sass", "prisma", "remix.js"],
+        techStack: ["Sass", "Prisma", "Remix.js"],
         startDate: new Date("2022-05-01"),
         endDate: new Date("2022-05-01"),
         companyLogoImg: "/experience/snuxplore/web.webp",
@@ -225,7 +225,7 @@ export const Experiences: ExperienceInterface[] = [
         id: "zorp",
         companyName: "Data Intern @ Zorp",
         type: "Internships",
-        category: ["Internship", "Summer - 2023"],
+        category: ["Internship", "AI"],
         shortDescription:
             "Data analyst intern at Zorp - A Bangalore based tech startup. Worked as a part of the growth and data verticals.",
         websiteLink: "https://www.linkedin.com/posts/prabhav-pandey_two-months-wrapped-up-at-zorp-as-a-technical-activity-7092161041660313602-H2xS",
